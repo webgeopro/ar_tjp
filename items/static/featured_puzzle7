@@ -1,0 +1,31 @@
+
+<div class='block-imageblock-ImageBlock'>
+    <div class="one-image">
+        <h3> Featured Puzzle </h3>
+
+        <div class="giThumbnailContainer">
+            <a href="/Macro/Watching-jigsaw-puzzle">
+                <img src="/items/thumbnail/95/01/0000810195.jpg"
+                     width="130" height="93" id="IFid810195" class="ImageFrame_solid"
+                     onMouseOver="showPopupMenu(event,cutoutMenu,null,'100 piece Classic');return true;"
+                     onMouseOut="hidePopupMenu(event);return true;"
+                     alt="Watching"/>
+            </a>
+            <div class="giCutoutLabel">
+                <img src="/images/cutouts/100_piece_Classic.png"
+                     alt="100 piece Classic"
+                     title="100 piece Classic" />
+            </div>
+        </div>
+        <div class="giItemInfo">
+            <p class="giTitle">
+                <a href="/Macro/Watching-jigsaw-puzzle">
+                    Watching                </a>
+            </p>
+            <h4 class="giDescription">
+                            </h4>
+            100 piece Classic            <!--<p class="giInfo">Photo: </p>-->
+                            <p class="giInfo">Photo: Steve Jurvetson</p>
+                    </div>
+    </div>
+</div>

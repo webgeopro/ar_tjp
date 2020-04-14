@@ -1,0 +1,13 @@
+.gsContentPhoto {
+	padding: 0 0 10px 0;
+	text-align: center;
+}
+
+#photoframe {
+	margin: 1px 1px 0 1px;
+	background-color: #f3f3f3;
+	border: 1px solid #ddd;
+	padding: 6px;
+	-moz-border-radius: 3px;
+}
+

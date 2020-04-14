@@ -1,0 +1,46 @@
+div.gbTabBar {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin: 0.8em 0 0;
+  padding: 6px;
+  background: url('/images/tab_bg.gif') repeat-x bottom;
+  white-space: nowrap;
+}
+
+div.gbTabBar span.o {
+    padding: 6px 0 5px 8px;
+  background: url('/images/tab_left.png') no-repeat left top;
+}
+
+#gallery.IE div.gbTabBar span.o {
+    display: inline-block;   /* IE loses padding-left on wrapped inline nowrap element */
+    margin-bottom: 1px;      /* ..and then adds padding differently with inline-block.. */
+}
+
+/* IE may clip off the right end of a long set of tabs, so allow IE to wrap them */
+#gallery.IE div.gbTabBar { padding-bottom: 0; white-space: normal; }
+#gallery.IE div.gbTabBar span.giSelected { margin-bottom: 0; }
+
+#gallery div.gbTabBar span span {
+  padding: 6px 12px 5px 4px;
+  background: url('/images/tab_right.png') no-repeat right top;
+}
+
+#gallery div.gbTabBar a {
+  color: #777;
+  text-decoration: none;
+}
+
+#gallery div.gbTabBar a:hover { color: #f4560f; }
+
+#gallery div.gbTabBar span.giSelected {
+  padding-bottom: 6px;
+  background-image: url('/images/tab_left_on.png');
+}
+
+#gallery div.gbTabBar span.giSelected span {
+  color: #333;
+  font-weight: normal;
+  padding-bottom: 6px;
+  background-image: url('/images/tab_right_on.png');
+}

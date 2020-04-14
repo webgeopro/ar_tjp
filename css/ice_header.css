@@ -1,0 +1,21 @@
+#gsHeader{
+/*  height: 71px; */
+  text-align: left; 
+  padding: 0 0 0 0;
+  border: 0 0 0 0; 
+/*  background-image: url('/images/logo.jpg'); */
+  background-repeat: no-repeat;
+}
+
+.gsLogo {
+  display: block;
+  width: 420px;
+  height: 70px; 
+  background: url('/images/logo.jpg') no-repeat;
+  background-position: center center;
+}
+.gsLogo a {
+  display: block;
+  width: 420px;
+  height: 70px; 
+}

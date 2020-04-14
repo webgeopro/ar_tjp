@@ -1,0 +1,93 @@
+.gbBreadCrumbBackground {
+  height: 20px;
+}
+
+.gbSystemLinks{ }
+
+#gsNavBar div.gbBreadCrumb {
+  margin: 0px;
+  height: 20px;
+  padding: 0px;
+  padding-top: 4px;
+  padding-left: 8px;
+}
+
+#gsNavBar {
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+}
+#gsNavBar div {
+  margin-top: 0.1em;  /* Align system links with breadcrumb */
+  font-weight: bold;
+}
+
+#gsNavBar div.gbSystemLinks { 
+  padding: 0px;
+  padding-top: 4px;
+  padding-right: 6px;
+}
+
+#gsNavBar div.gbSystemLinks span { padding: 0px 2px 0 0; }
+
+#gsNavBar div.gbBreadCrumb {
+  font-weight: bold;
+}
+
+#gsNavBar div.gbBreadCrumb a, #gsNavBar div.gbBreadCrumb span {
+  padding: 0 2px 0 2px;
+  white-space: nowrap;
+}
+
+#gsNavBar div.gbBreadCrumb a.BreadCrumb-1 {   /* no :first-child in IE */
+  padding-left: 0;
+  white-space: nowrap;
+}
+#gallery.IE div.gbBreadCrumb span {
+  display: inline-block;   /* IE loses padding-left on wrapped inline nowrap element */
+  padding-right: 4px;      /* IE has less space at right of each span */
+}
+
+#gsNavBar div.gbBreadCrumb span.BreadCrumb-1 {   /* no :first-child in IE */
+  padding-left: 0;
+}
+
+#gsNavBar div.gbSystemLinks { float: right; }
+
+div.gbNavigator div.first-and-previous { float: left; }
+div.gbNavigator div.next-and-last { float: right; }
+
+td.gbNavigatorPhoto { padding-top: 0px; }
+
+.gbNavigator {
+ padding-top: 6px; 
+ margin-left: 5px; 
+ margin-right: 5px; 
+}
+.gbNavigatorTop {
+ padding-bottom: 5px; 
+ margin-left: 5px; 
+ margin-right: 5px; 
+}
+.gbNavigatorBottom {
+ padding-top: 0px; 
+ margin-left: 5px; 
+ margin-right: 5px; 
+}
+
+.gsPages span { padding: 0 0.3em; }
+
+#ContentAlbum div.gbNavigator{
+ width:200px;
+ margin: auto;
+ white-space:nowrap;
+}
+#ContentAlbum .gbNavigator, #ContentAlbum .gbNavigator a{
+ font-size:1.2em;
+ font-weight:bold;
+}
+#ContentAlbum .gbBlockNavTop{
+ padding-bottom: 10px; 
+}
+#ContentAlbum div.gsPages, #ContentAlbum div.block-core-Pager{
+ white-space:nowrap;
+}

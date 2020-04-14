@@ -1,0 +1,160 @@
+td.gsActionIcon {
+  text-align: center;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+td.giTitleIcon { padding-right: 10px; }
+
+.iconAlbum {
+  display: block;
+  width: 16px;
+  height: 16px; 
+  background: url('/images/album.png') no-repeat;
+  background-position: center center;
+}
+
+.iconEmergency {
+  float: right;
+  display: block;
+  width: 20px;
+  height: 20px; 
+  background: url('/images/emergency.png') no-repeat;
+  background-position: center center;
+}
+
+.downloadItem {
+  width: 40px;
+  height: 40px; 
+  background: url('/images/download.png') no-repeat;
+  background-position: center center;
+}
+
+.spacerItemLinks {
+  float: left;
+  margin-top: 1px;
+  margin-left: 3px;
+  height: 20px;
+  margin-right: 3px; 
+  border-width: 0 1px 0 0;
+  border-style: inset ;
+}
+      
+.buttonItemLinks {
+  float: left;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  margin-right: 1px; 
+  margin-bottom: 1px; 
+  height: 22px;
+  background-position: center center !important;
+}
+
+.buttonItemLinks:hover {
+  -moz-border-radius: 2px;
+  border-color: #ccc;
+  opacity: 0.8;
+}
+
+.buttonAction a {
+  float: left;
+  margin-top: 1px;
+  margin-left: 4px;
+  padding-right: 3px;
+  height: 16px;
+  width: 16px;
+}
+.buttonAction a:hover { 
+  opacity: 0.8;
+}
+.buttonActionPhoto a {
+  float: left;
+  margin-left: 5px;
+}
+.buttonClose a {
+  float: right;
+  margin-left: 0px;
+  padding-right: 0px;
+  background: url('/images/close.png') no-repeat;
+  background-position: center center;
+}
+
+.buttonFirst a {
+  padding-right: 0px;
+  margin-left: 0px;
+  background: url('/images/first.png') no-repeat;
+  background-position: center center;
+}
+
+.buttonLast a {
+  padding-right: 0px;
+  margin-left: 0px;
+  background: url('/images/last.png') no-repeat;
+  background-position: center center;
+}
+
+.buttonPrev a {
+  float: left;
+  padding-right: 0px;
+  margin-left: 0px;
+  background: url('/images/prev.png') no-repeat;
+  background-position: center center;
+}
+
+.buttonNext a {
+  float: right;
+  padding-right: 0px;
+  margin-left: 0px;  
+  background: url('/images/next.png') no-repeat;
+  background-position: center center;
+}
+
+.buttonExif a {
+  height: 16px;
+  width: 16px;
+  margin-top: 5px;
+  background: url('/images/exif.png') no-repeat;
+  background-position: center center;
+}
+
+.buttonPopup a {
+  height: 16px;
+  width: 16px;  
+  margin-top: 5px;
+  background: url('/images/fullsize.png') no-repeat;
+  background-position: center center;
+}
+
+.buttonAddComment a {
+  margin-top: 5px;
+  background: url('/images/add_comment.png') no-repeat;
+  background-position: center center;
+}
+
+.buttonViewComments a {
+  margin-top: 5px;
+  margin-bottom: 3px;  
+  background: url('/images/view_comment.png') no-repeat;
+  background-position: center center;
+}
+
+.buttonViewSlideshow a {
+  margin-top: 6px;
+  margin-bottom: 2px;  
+  background: url('/images/view_slideshow.png') no-repeat;
+  background-position: center center;  
+}
+
+.buttonCart a {
+  margin-top: 5px;
+  background: url('/images/add_cart.png') no-repeat;
+  background-position: center center;
+}
+
+.buttonShowSidebar a {
+  margin-top: 6px;
+  margin-bottom: 3px;  
+  background: url('/images/showsidebar.png') no-repeat;
+  background-position: center center;
+}

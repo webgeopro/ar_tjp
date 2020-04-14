@@ -1,0 +1,31 @@
+
+<div class='block-imageblock-ImageBlock'>
+    <div class="one-image">
+        <h3> Featured Puzzle </h3>
+
+        <div class="giThumbnailContainer">
+            <a href="/Food-and-Bakery/Plums-and-Whisky-jigsaw-puzzle">
+                <img src="/items/thumbnail/77/07/0000000777.jpg"
+                     width="130" height="104" id="IFid777" class="ImageFrame_solid"
+                     onMouseOver="showPopupMenu(event,cutoutMenu,null,'50 piece Classic');return true;"
+                     onMouseOut="hidePopupMenu(event);return true;"
+                     alt="Plums &amp; Whisky"/>
+            </a>
+            <div class="giCutoutLabel">
+                <img src="/images/cutouts/50_piece_Classic.png"
+                     alt="50 piece Classic"
+                     title="50 piece Classic" />
+            </div>
+        </div>
+        <div class="giItemInfo">
+            <p class="giTitle">
+                <a href="/Food-and-Bakery/Plums-and-Whisky-jigsaw-puzzle">
+                    Plums &amp; Whisky                </a>
+            </p>
+            <h4 class="giDescription">
+                            </h4>
+            50 piece Classic            <!--<p class="giInfo">Photo: </p>-->
+                            <p class="giInfo">Photo: Sonja Pieper</p>
+                    </div>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+.gbEmptyAlbum { height: 400px; }
+
+.gsContentAlbum { 
+  padding: 0 0 0 0;
+}
+
+div.AlbumCell, div.giItemCell {
+  padding-top: 0.5em;
+  padding-left: 1.0em;
+  padding-right: 1.0em;
+  padding-bottom: 1.0em;
+  text-align: center;
+}
+
+#gallery div.giAlbumCell select, #gallery div.giItemCell select { margin-top: 0.8em; }
+#gallery td.giAlbumCell select, #gallery td.giItemCell select { margin-top: 0.8em; }
+
+/* So imageframed thumbs can be centered */
+div.giAlbumCell table, div.giItemCell table { margin: auto; }
+
+td.giAlbumCell, td.giItemCell {
+  padding-top: 0.5em;
+  padding-left: 1.0em;
+  padding-right: 1.0em;
+  padding-bottom: 1.0em;
+  text-align: center;
+}
+
+/* So imageframed thumbs can be centered */
+td.giAlbumCell table, td.giItemCell table { margin: auto; }
+

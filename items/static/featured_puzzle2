@@ -1,0 +1,31 @@
+
+<div class='block-imageblock-ImageBlock'>
+    <div class="one-image">
+        <h3> Featured Puzzle </h3>
+
+        <div class="giThumbnailContainer">
+            <a href="/Puzzle-of-the-Day/Rainbow-Lorikeet_002-jigsaw-puzzle">
+                <img src="/items/thumbnail/05/74/0000977405.jpg"
+                     width="130" height="86" id="IFid977405" class="ImageFrame_solid"
+                     onMouseOver="showPopupMenu(event,cutoutMenu,null,'50 piece Classic');return true;"
+                     onMouseOut="hidePopupMenu(event);return true;"
+                     alt="Rainbow Lorikeet"/>
+            </a>
+            <div class="giCutoutLabel">
+                <img src="/images/cutouts/50_piece_Classic.png"
+                     alt="50 piece Classic"
+                     title="50 piece Classic" />
+            </div>
+        </div>
+        <div class="giItemInfo">
+            <p class="giTitle">
+                <a href="/Puzzle-of-the-Day/Rainbow-Lorikeet_002-jigsaw-puzzle">
+                    Rainbow Lorikeet                </a>
+            </p>
+            <h4 class="giDescription">
+                            </h4>
+            50 piece Classic            <!--<p class="giInfo">Photo: </p>-->
+                            <p class="giInfo">Photo: 111 Emergency</p>
+                    </div>
+    </div>
+</div>

@@ -1,0 +1,492 @@
+li.giSelected {
+  padding-left: 22px;
+  background: url("../images/icons/arrow_right.png") left center no-repeat;
+}
+
+.gbAdminLink {
+  padding-left: 22px !important;
+  background: url("../images/icons/bullet.png") left center no-repeat;
+}
+
+.gbAdminLink a {
+  margin-left: -22px;
+  padding-left: 22px;
+}
+
+/* Special */
+.gbLink-Help {
+  width: 16px;
+  height: 16px;
+  background: url("../images/icons/help.png") left center no-repeat;
+}
+
+.gbLink-Help a {
+  display: none;
+}
+
+/* Core */
+.gbLink-core_ItemAdmin-core_ItemAdd {
+  background-image: url("../images/icons/add_items.png");
+}
+.gbLink-core_ItemAdmin-core_ItemAddAlbum {
+  background-image: url("../images/icons/book_add.png");
+}
+.gbLink-core_ItemAdmin-core_ItemDelete-album,
+.gbLink-core_ItemAdmin-core_ItemDeleteSingle-album {
+  background-image: url("../images/icons/book_delete.png");
+}
+.gbLink-core_ItemAdmin-core_ItemDelete,
+.gbLink-core_ItemAdmin-core_ItemDeleteSingle {
+  background-image: url("../images/icons/puzzle_delete.png");
+}
+.gbLink-core_ItemAdmin-core_ItemEdit {
+  background-image: url("../images/icons/picture_edit.png");
+}
+.gbLink-core_ItemAdmin-core_ItemEdit-album {
+  background-image: url("../images/icons/book_edit.png");
+}
+.gbLink-core_ItemAdmin-core_ItemEditCaptions {
+  background-image: url("../images/icons/style_edit.png");
+}
+.gbLink-core_ItemAdmin-core_ItemPermissions {
+  background-image: url("../images/icons/lock_edit.png");
+}
+.gbLink-core_ItemAdmin-core_ItemReorder {
+  background-image: url("../images/icons/arrow_switch.png");
+}
+.gbLink-core_ItemAdmin-core_ItemMove,
+.gbLink-core_ItemAdmin-core_ItemMoveSingle {
+  background-image: url("../images/icons/picture_go.png");
+}
+.gbLink-core_ItemAdmin-core_ItemMakeHighlight {
+  background-image: url("../images/icons/lightbulb.png");
+}
+.gbLink-core_AdminCore {
+  background-image: url("../images/icons/page_white_stack.png");
+}
+.gbLink-core_AdminPlugins {
+  background-image: url("../images/icons/plugin.png");
+}
+.gbLink-core_AdminLanguageManager {
+  background-image: url("../images/icons/language_manager.png");
+}
+.gbLink-core_AdminEventLogViewer {
+  background-image: url("../images/icons/report_magnify.png");
+}
+.icon-plugin-active {
+  background-image: url("../images/icons/accept.png");
+}
+.icon-plugin-inactive {
+  background-image: url("../images/icons/delete.png");
+}
+.icon-plugin-upgrade {
+  background-image: url("../images/icons/error_go.png");
+}
+.icon-plugin-uninstall {
+  background-image: url("../images/icons/bullet_delete.png");
+}
+.icon-plugin-incompatible {
+  background-image: url("../images/icons/error.png");
+}
+.icon-plugin-locked {
+  background-image: url("../images/icons/lock.png");
+}
+.gbLink-core_AdminThemes {
+  background-image: url("../images/icons/layout.png");
+}
+.gbLink-core_AdminToolkitPriority {
+  background-image: url("../images/icons/toolkit_priority.png");
+}
+.gbLink-core_AdminMaintenance {
+  background-image: url("../images/icons/page_white_wrench.png");
+}
+.gbLink-core_AdminPerformance {
+  background-image: url("../images/icons/time.png");
+}
+
+/* Users */
+.gbLink-core_UserChangePassword {
+  background-image: url("../images/icons/key.png");
+}
+.gbLink-core_UserPreferences {
+  background-image: url("../images/icons/account_setting.png");
+}
+.gbLink-core_AdminUsers {
+  background-image: url("../images/icons/group.png");
+}
+.gbLink-core_AdminGroups {
+  background-image: url("../images/icons/groups.png");
+}
+.gbLink-core_UserLogin {
+  background-image: url("../images/icons/key.png");
+}
+.gbLink-register_UserSelfRegistration {
+  background-image: url("../images/icons/user_add.png");
+}
+#giFormUsername,
+.giFormUsername {
+  background-image: url("../images/icons/user.png");
+  background-repeat: no-repeat;
+  padding-left: 17px;
+}
+#giFormGroupname {
+  background-image: url("../images/icons/group.png");
+}
+#giFormPassword {
+  background-image: url("../images/icons/key.png");
+  background-repeat: no-repeat;
+  padding-left: 17px;
+}
+.giFormPasswordLabeled#giFormPassword{
+  background-image: url("../images/icons/key-password.png");
+}
+
+/* Import */
+.gbLink-archiveupload_ArchiveUploadSiteAdmin {
+  background-image: url("../images/icons/import_archive.png");
+}
+.gbLink-itemadd_ItemAddSiteAdmin {
+  background-image: url("../images/icons/drive_web.png");
+}
+.gbLink-migrate_SelectGallery {
+  background-image: url("../images/icons/application_view_gallery.png");
+}
+.gbLink-picasa_SelectPicasaExportPath {
+  background-image: url("../images/icons/picasa.png");
+}
+.gbLink-uploadapplet_UploadAppletSiteAdmin {
+  background-image: url("../images/icons/page_white_get.png");
+}
+.gbLink-webcam_WebCamSiteAdmin {
+  background-image: url("../images/icons/webcam.png");
+}
+
+/* Extra Data */
+.gbLink-comment_AddComment,
+.gbLink-comment_CommentSiteAdmin {
+  background-image: url("../images/icons/comment_add.png");
+}
+.gbLink-comment_ShowAllComments,
+.gbLink-core_ItemAdmin-comment_ShowComments {
+  background-image: url("../images/icons/comments.png");
+}
+.gbLink-comment_AdminModerateSpam {
+  background-image: url("../images/icons/comments_delete.png");
+}
+.gbLink-customfield_CustomFieldSiteAdmin {
+  background-image: url("../images/icons/application_form.png");
+}
+.gbLink-exif_AdminExif {
+  background-image: url("../images/icons/camera.png");
+}
+.gbLink-getid3_AdminGetid3 {
+  background-image: url("../images/icons/getid3.png");
+}
+.gbLink-mime_MimeAdmin {
+  background-image: url("../images/icons/page_white_gear.png");
+}
+.gbLink-multilang_MultiLangSiteAdmin {
+  background-image: url("../images/icons/multilang.png");
+}
+.gbLink-rating_RatingSiteAdmin {
+  background-image: url("../images/icons/award_star_bronze_3.png");
+}
+
+/* Graphics Toolkits */
+.gbLink-dcraw_AdminDcraw {
+  background-image: url("../images/icons/dcraw.png");
+}
+.gbLink-ffmpeg_AdminFfmpeg {
+  background-image: url("../images/icons/film.png");
+}
+.gbLink-gd_AdminGd {
+  background-image: url("../images/icons/gd.png");
+}
+.gbLink-imagemagick_AdminImageMagick {
+  background-image: url("../images/icons/wand.png");
+}
+.gbLink-netpbm_AdminNetPbm {
+  background-image: url("../images/icons/pbm.png");
+}
+.gbLink-jpegtran_AdminJpegtran {
+  background-image: url("../images/icons/jpeg_tran.png");
+}
+
+/* Blocks */
+.gbLink-albumselect_AlbumSelectSiteAdmin {
+  background-image: url("../images/icons/albumselect.png");
+}
+.gbLink-imageblock_ImageBlockSiteAdmin {
+  background-image: url("../images/icons/brick.png");
+}
+
+/* Gallery */
+.gbLink-captcha_CaptchaSiteAdmin {
+  background-image: url("../images/icons/shield.png");
+}
+.gbLink-debug_ShowTree {
+  background-image: url("../images/icons/bug.png");
+}
+.gbLink-members_AdminMembers,
+.gbLink-members_MembersList {
+  background-image: url("../images/icons/members.png");
+}
+.gbLink-notification_NotificationSiteAdmin {
+  background-image: url("../images/icons/email.png");
+}
+.gbLink-notification_NotificationUserAdmin,
+.gbLink-core_ItemAdmin-notification_NotificationItemAdmin {
+  background-image: url("../images/icons/magnifier.png");
+}
+.gbLink-permalinks_PermalinksSiteAdmin {
+  background-image: url("../images/icons/anchor.png");
+}
+.gbLink-quotas_AdminQuotas {
+  background-image: url("../images/icons/chart_pie.png");
+}
+.gbLink-register_AdminSelfRegistration {
+  background-image: url("../images/icons/user_add.png");
+}
+.gbLink-rewrite_AdminRewrite {
+  background-image: url("../images/icons/url_rewrite.png");
+}
+.gbLink-search_SearchScan {
+  background-image: url("../images/icons/advanced_search.png");
+}
+.gbLink-useralbum_UserAlbumSiteAdmin {
+  background-image: url("../images/icons/user_albums.png");
+}
+
+/* Display */
+.gbLink-dynamicalbum_DynamicAlbumSiteAdmin,
+.gbLink-dynamicalbum_UpdatesAlbum,
+.gbLink-dynamicalbum_PopularAlbum,
+.gbLink-dynamicalbum_RandomAlbum {
+  background-image: url("../images/icons/dynamic_album.png");
+}
+.gbLink-icons_IconsSiteAdmin {
+  background-image: url("../images/icons/color_swatch.png");
+}
+.gbLink-keyalbum_KeywordAlbumSiteAdmin {
+  background-image: url("../images/icons/keyword_album.png");
+}
+.gbLink-linkitem_LinkItemSiteAdmin {
+  background-image: url("../images/icons/link.png");
+}
+.gbLink-newitems_NewItemsSiteAdmin {
+  background-image: url("../images/icons/new.png");
+}
+.gbLink-panorama_PanoramaSiteAdmin,
+.gbLink-panorama_Panorama {
+  background-image: url("../images/icons/panorama.png");
+}
+.gbLink-randomhighlight_RandomHighlightSiteAdmin {
+  background-image: url("../images/icons../images/icons.png");
+}
+.gbLink-core_ItemAdmin-rearrange_RearrangeItems {
+  background-image: url("../images/icons/arrow_switch.png");
+}
+.gbLink-core_ItemAdmin-replica_ItemCreateReplica,
+.gbLink-core_ItemAdmin-replica_ItemCreateReplicaSingle {
+  background-image: url("../images/icons/page_copy.png");
+}
+.gbLink-slideshow_Slideshow,
+.gbLink-slideshow_AdminSlideshow {
+  background: url("../images/icons/view_slideshow.png") left bottom no-repeat;
+}
+.gbLink-slideshowapplet_SlideshowApplet,
+.gbLink-slideshowapplet_SlideshowAppletSiteAdmin {
+  background-image: url("../images/icons/control_play.png");
+}
+.gbLink-squarethumb_SquareThumbSiteAdmin {
+  background-image: url("../images/icons/picture_empty.png");
+}
+.gbLink-thumbnail_ThumbnailSiteAdmin {
+  background-image: url("../images/icons/pictures.png");
+}
+.gbLink-watermark_WatermarkSiteAdmin,
+.gbLink-watermark_UserWatermarks {
+  background-image: url("../images/icons/picture_key.png");
+}
+
+/* Commerce */
+.gbLink-ecard_SendEcard,
+.gbLink-ecard_AdminEcard {
+  background-image: url("../images/icons/email_open_image.png");
+}
+.gbLink-cart_ViewCart {
+  background-image: url("../images/icons/cart.png");
+}
+.gbLink-cart_AddToCart {
+  background-image: url("../images/icons/cart_add.png");
+}
+.gbLink-digibug_DigibugPrintPhotos {
+  background-image: url("../images/icons/digibug-print.png");
+}
+.gbLink-digibug_AdminDigibug {
+  background-image: url("../images/icons/digibug-admin.png");
+}
+.gbLink-fotokasten_PrintPhotos {
+  background-image: url("../images/icons/fotokasten-print.png");
+}
+.gbLink-fotokasten_FotokastenSiteAdmin {
+  background-image: url("../images/icons/fotokasten-admin.png");
+}
+.gbLink-photoaccess_PrintPhoto {
+  background-image: url("../images/icons/printer.png");
+}
+.gbLink-shutterfly_PrintPhotos {
+  background-image: url("../images/icons/shutterfly-print.png");
+}
+.gbLink-snapgalaxy_SnapGalaxyPrintPhotos {
+  background-image: url("../images/icons/snapgalaxy-print.png");
+}
+.gbLink-snapgalaxy_AdminSnapGalaxy {
+  background-image: url("../images/icons/snapgalaxy-admin.png");
+}
+.gbLink-zipcart_ZipCartAdmin {
+  background-image: url("../images/icons/compress.png");
+}
+
+/* Authentication */
+.gbLink-httpauth_HttpAuthSiteAdmin {
+  background-image: url("../images/icons/key.png");
+}
+
+/* Remote Interfaces */
+.gbLink-remote_RemoteSiteAdmin {
+  background-image: url("../images/icons/controller.png");
+}
+.gbLink-webdav_WebDavSiteAdmin,
+.gbLink-webdav_WebDavMount {
+  background-image: url("../images/icons/folder_picture.png");
+}
+
+/* Export */
+.gbLink-rss_SimpleRender,
+.gbLink-core_ItemAdmin-rss_EditFeed,
+.gbLink-rss_RssSiteAdmin {
+  background-image: url("../images/icons/rss_feed.png");
+}
+.gbLink-sitemap_AdminSitemap {
+  background-image: url("../images/icons/sitemap.png");
+}
+
+.gbLink-icalendar_ICalendarSiteAdmin,
+.gbLink-calendar_CalendarSiteAdmin {
+  background-image: url("../images/icons/calendar.png");
+}
+
+
+/* Addviaemail Configure */
+.gbLink-addviaemail_Configure {
+  background-image: url("../images/icons/email_open_image.png");
+}
+/* Checkout Admin */
+.gbLink-checkout_Admin {
+  background-image: url("../images/icons/cart_go.png");
+}
+/* Checkoutauthorizenet Admin */
+.gbLink-checkoutauthorizenet_Admin {
+  background-image: url("../images/icons/cart_go.png");
+}
+/* Checkoutemail Admin */
+.gbLink-checkoutemail_Admin {
+  background-image: url("../images/icons/cart_go.png");
+}
+/* Checkoutpaypal Admin */
+.gbLink-checkoutpaypal_Admin {
+  background-image: url("../images/icons/cart_go.png");
+}
+/* Cmmigrate Select Coppermine Album */
+.gbLink-cmmigrate_SelectCmAlbum {
+  background-image: url("../images/icons/coppermine-2.png");
+}
+/* Favourites Site Admin */
+.gbLink-favourites_FavouritesSiteAdmin {
+  background-image: url("../images/icons/thumb_up.png");
+}
+/* Favourites Site Admin */
+.gbLink-favourites_AddFavourite {
+  background-image: url("../images/icons/thumb_up.png");
+}
+/* Fire Stats Config Page */
+.gbLink-firestats_FireStatsConfigPage {
+  background-image: url("../images/icons/firestats.png");
+}
+/* Getid3:Admin Getid3 */
+.gbLink-getid3:AdminGetid3 {
+  background-image: url("../images/icons/getid3.png");
+}
+/* Get Urls Site Admin */
+.gbLink-geturls_GetUrlsSiteAdmin {
+  background-image: url("../images/icons/embed.png");
+}
+/* Linksinthehead Admin */
+.gbLink-linksinthehead_Admin {
+  background-image: url("../images/icons/layout_header.png");
+}
+/* Map Site Admin */
+.gbLink-map_MapSiteAdmin {
+  background-image: url("../images/icons/map_edit.png");
+}
+/* Statistics Site Admin */
+.gbLink-statistics_StatisticsSiteAdmin {
+  background-image: url("../images/icons/application_view_detail.png");
+}
+/* Admin Settings Tags */
+.gbLink-tags_AdminSettingsTags {
+  background-image: url("../images/icons/tag_blue_edit.png");
+}
+/* Admin Tags */
+.gbLink-tags_AdminTags {
+  background-image: url("../images/icons/tag_blue.png");
+}
+/* Userinfo */
+.gbLink-userinfo_Userinfo {
+  background-image: url("../images/icons/user_go.png");
+}
+/* Bulk Edit Tags */
+.gbLink-tags_BulkTagsEdit { 
+  background-image: url("../images/icons/tag_blue_edit.png");  
+}
+.gbLink-core_ItemAdmin-bulkmanage_BulkManage {
+  background-image: url("../images/icons/picture_edit.png");
+}
+.gbLink-tags_TagsItemEdit {
+  background-image: url("../images/icons/tag_blue_edit.png");
+}
+.gbLink-geturls_GetUrls {
+  background-image: url("../images/icons/embed.png");
+}
+/* OpenID */
+.gbLink-openid_OpenIdSiteAdmin {
+  background-image: url("../images/icons/openid-16x16.gif");
+}
+
+/* Puzzle */
+.gbLink-puzzle_ChangeCut {
+  background-image: url("../images/icons/cut.png");
+  display:inline !important;
+}
+.gbLink-puzzle_FullScreen {
+  background-image: url("../images/icons/fullscreen.png");
+}
+.gbLink-puzzle_DownloadEJ {
+  background-image: url("../images/icons/download.png");
+}
+.gbLink-puzzle_SendToFriend {
+  background-image: url("../images/icons/send.png");
+}
+.gbLink-puzzle_MyPuzzles {
+  background-image: url("../images/icons/puzzle.png");
+}
+.gbLink-simple_SimpleUpload {
+  background-image: url("../images/icons/puzzle_add.png");
+}
+.gbLink-simple_SimpleEdit {
+  background-image: url("../images/icons/puzzle_edit.png");
+}
+.gbUserActions .gbLink-register_UserSelfRegistration {
+  background-image: url("../images/icons/user_green.png");
+}

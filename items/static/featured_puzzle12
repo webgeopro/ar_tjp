@@ -1,0 +1,31 @@
+
+<div class='block-imageblock-ImageBlock'>
+    <div class="one-image">
+        <h3> Featured Puzzle </h3>
+
+        <div class="giThumbnailContainer">
+            <a href="/Bridges/Ponte-Vecchio-Florence_003-jigsaw-puzzle">
+                <img src="/items/thumbnail/70/19/0001141970.jpg"
+                     width="130" height="98" id="IFid1141970" class="ImageFrame_solid"
+                     onMouseOver="showPopupMenu(event,cutoutMenu,null,'150 piece Classic');return true;"
+                     onMouseOut="hidePopupMenu(event);return true;"
+                     alt="Ponte Vecchio, Florence"/>
+            </a>
+            <div class="giCutoutLabel">
+                <img src="/images/cutouts/150_piece_Classic.png"
+                     alt="150 piece Classic"
+                     title="150 piece Classic" />
+            </div>
+        </div>
+        <div class="giItemInfo">
+            <p class="giTitle">
+                <a href="/Bridges/Ponte-Vecchio-Florence_003-jigsaw-puzzle">
+                    Ponte Vecchio, Florence                </a>
+            </p>
+            <h4 class="giDescription">
+                            </h4>
+            150 piece Classic            <!--<p class="giInfo">Photo: </p>-->
+                            <p class="giInfo">Photo: Joan Campderrós-i-Canas</p>
+                    </div>
+    </div>
+</div>

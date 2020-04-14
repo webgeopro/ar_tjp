@@ -1,0 +1,20 @@
+.errorMessage {
+    color: red;
+}
+div.errorSummary {
+    margin-top: 20px;
+}
+div.errorSummary p {
+    font-weight: bolder;
+    margin: 0;
+}
+div.errorSummary ul {
+    margin: 0 0 0 20px;
+}
+div.errorSummary ul li {
+    margin: 0;
+    color: red;
+}
+div.success {
+    color: green;
+}

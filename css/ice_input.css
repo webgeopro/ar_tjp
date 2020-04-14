@@ -1,0 +1,96 @@
+#gallery input, #gallery textarea {
+    border-width: 1px;
+    background-color: #FFFFFF;
+	border-top-color: #AAA;
+    border-left-color: #AAA;
+    border-bottom-color: #DDD;
+    border-right-color: #DDD;
+    -moz-border-top-colors: #AAA #DDD ;
+    -moz-border-left-colors: #AAA #DDD ;
+    -moz-border-bottom-colors: #AAA #DDD ;
+    -moz-border-right-colors: #AAA #DDD ;
+    -moz-border-radius: 2px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#gallery input:focus, #gallery textarea:focus {
+    -moz-border-radius: 2px;
+    -moz-border-top-colors: #1E80B8 #e63000;
+    -moz-border-left-colors: #1E80B8 #e63000;
+    -moz-border-bottom-colors: #1E80B8 #ef6000;
+    -moz-border-right-colors: #1E80B8 #ef6000;
+    background-color: #C9DCE7;
+    border-width: 1px;
+    color: #000;
+}
+
+#gallery input.disabled:focus, #gallery textarea.disabled:focus {
+    background-color: #EEE;
+}
+
+#gallery input.inputTypeSubmit, #gallery input.inputTypeButton {  /* No input[type=submit] in IE */
+  color: #333;
+  background-color: #eee;
+  border-width: 1px;
+  border-style: solid;
+}
+#gallery input.inputTypeSubmit_disabled, #gallery input.inputTypeButton_disabled {  /* No input[type=submit] in IE */
+  color: #888;
+  background-color: #eee;
+  border-width: 1px;
+  border-style: solid;
+}
+#gallery input.inputTypeSubmit:hover, #gallery input.inputTypeButton:hover {  /* No input[type=submit] in IE */
+  background-color:  #C9DCE7;
+}
+
+#gallery select { 
+    -moz-border-top-colors: #AAA #EEE ;
+    -moz-border-left-colors: #AAA #EEE ;
+    -moz-border-bottom-colors: #AAA #EEE ;
+    -moz-border-right-colors: #AAA #EEE ;
+    -moz-border-radius: 2px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    border-width: 1px;
+	padding:1px;
+}
+#gallery select:focus { 
+    -moz-border-radius: 2px;
+    -moz-border-top-colors: #1E80B8 #e63000;
+    -moz-border-left-colors: #1E80B8 #e63000;
+    -moz-border-bottom-colors: #1E80B8 #ef6000;
+    -moz-border-right-colors: #1E80B8 #ef6000;
+}
+#gallery select:hover { 
+    background-color: #C9DCE7;
+}
+
+.gbMarkupBar { margin: 4px 0; }
+
+#gallery .gbMarkupBar input {
+  margin: 0;
+  padding: 0;
+}
+
+h4.label_MonthofBirth, h4.label_YearofBirth{
+  display:none;
+}
+
+form#userAdminForm div#gsContent div.gbBlock{
+  padding-bottom:10px;
+}
+form#userAdminForm div#gsContent h4{
+  margin-bottom:2px;
+}
+#gallery select.input_Country{
+  font-size:1.1em;
+}
+
+#gallery .block-search-SearchBlock{
+  white-space:nowrap;
+}
+
+#gallery input#searchButton{
+  margin-left: -2px;
+  margin-bottom: -5px;
+}

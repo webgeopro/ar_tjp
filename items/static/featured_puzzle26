@@ -1,0 +1,31 @@
+
+<div class='block-imageblock-ImageBlock'>
+    <div class="one-image">
+        <h3> Featured Puzzle </h3>
+
+        <div class="giThumbnailContainer">
+            <a href="/Castles/Schloss-Hartenfels-jigsaw-puzzle">
+                <img src="/items/thumbnail/99/88/0000008899.jpg"
+                     width="130" height="98" id="IFid8899" class="ImageFrame_solid"
+                     onMouseOver="showPopupMenu(event,cutoutMenu,null,'100 piece Classic');return true;"
+                     onMouseOut="hidePopupMenu(event);return true;"
+                     alt="Schloss Hartenfels"/>
+            </a>
+            <div class="giCutoutLabel">
+                <img src="/images/cutouts/100_piece_Classic.png"
+                     alt="100 piece Classic"
+                     title="100 piece Classic" />
+            </div>
+        </div>
+        <div class="giItemInfo">
+            <p class="giTitle">
+                <a href="/Castles/Schloss-Hartenfels-jigsaw-puzzle">
+                    Schloss Hartenfels                </a>
+            </p>
+            <h4 class="giDescription">
+                            </h4>
+            100 piece Classic            <!--<p class="giInfo">Photo: </p>-->
+                            <p class="giInfo">Photo: Charlotte Nordahl</p>
+                    </div>
+    </div>
+</div>

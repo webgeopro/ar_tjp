@@ -1,0 +1,96 @@
+#gallery {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    color: #333;
+}
+
+#gallery h2, #gallery h3, #gallery h4, #gallery form {
+  margin: 0;
+  padding: 0;
+}
+
+#gallery p {
+  margin: 0.6em 0;
+  padding: 0;
+}
+
+/*#gallery h2, #gallery h3, #gallery h4 {
+    font-family: "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif;
+}*/
+
+#gallery pre, #gallery tt {
+  font-family: Courier New;
+  font-size: 1.2em;
+}
+
+#gallery .giTitle, #gallery h2, #gallery h3, #gallery h4 {
+  color:#333;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+#gallery .giTitle a{
+  color:#333;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.giSubtitle {
+  font-size: 0.9em;
+  font-weight: normal;
+  vertical-align: text-bottom;
+}
+
+.giDescription {
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+
+.giDescription h3.emptyAlbum {
+  line-height: 4.0em;
+  text-align: center;
+}
+
+.giInfo {
+  font-size: 0.9em;
+  color: #888;
+}
+.giInfo span.summary { display: block; }
+
+.giSuccess, .giWarning, .giError  { font-weight: bold; }
+.giSuccess { color: #5c0; }
+.giWarning { color: #c50; }
+.giError { color: #a44; }
+
+.giNew, .giUpdated {
+  border-width: 1px;
+  border-style: solid;
+  padding: 0 6px;
+  line-height: 1.9em;
+}
+
+#gallery .gbMarkupBar input { font-size: 1.1em; }
+
+.giSearchHighlight {
+  font-weight: bold;
+  background-color: #ff6;
+}
+
+#gallery img.giHeader{
+  text-align:left;
+  padding:3px;
+}
+
+#gallery h2.giHeaderBack{
+  clear:both;
+  background: url('/images/headers/header_back.gif') no-repeat;
+  background-position: top left;
+  padding: 14px 10px 10px 18px;
+  height: 37px;
+}
+
+#gallery h2.giHeaderBack, #gallery h2.giHeaderBack a{
+  font-weight: bold;
+  font-size: 1.1em;
+  white-space:nowrap;
+  color:#333;
+}

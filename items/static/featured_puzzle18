@@ -1,0 +1,31 @@
+
+<div class='block-imageblock-ImageBlock'>
+    <div class="one-image">
+        <h3> Featured Puzzle </h3>
+
+        <div class="giThumbnailContainer">
+            <a href="/Bridges/Blue-River-OR-jigsaw-puzzle">
+                <img src="/items/thumbnail/59/08/0000270859.jpg"
+                     width="130" height="87" id="IFid270859" class="ImageFrame_solid"
+                     onMouseOver="showPopupMenu(event,cutoutMenu,null,'100 piece Classic');return true;"
+                     onMouseOut="hidePopupMenu(event);return true;"
+                     alt="Blue River, OR"/>
+            </a>
+            <div class="giCutoutLabel">
+                <img src="/images/cutouts/100_piece_Classic.png"
+                     alt="100 piece Classic"
+                     title="100 piece Classic" />
+            </div>
+        </div>
+        <div class="giItemInfo">
+            <p class="giTitle">
+                <a href="/Bridges/Blue-River-OR-jigsaw-puzzle">
+                    Blue River, OR                </a>
+            </p>
+            <h4 class="giDescription">
+                            </h4>
+            100 piece Classic            <!--<p class="giInfo">Photo: </p>-->
+                            <p class="giInfo">Photo: Bruce Fingerhood</p>
+                    </div>
+    </div>
+</div>

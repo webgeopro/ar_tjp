@@ -1,0 +1,31 @@
+
+<div class='block-imageblock-ImageBlock'>
+    <div class="one-image">
+        <h3> Featured Puzzle </h3>
+
+        <div class="giThumbnailContainer">
+            <a href="/Street-View/Kavanagh-jigsaw-puzzle">
+                <img src="/items/thumbnail/62/50/0000005062.jpg"
+                     width="130" height="123" id="IFid5062" class="ImageFrame_solid"
+                     onMouseOver="showPopupMenu(event,cutoutMenu,null,'100 piece Classic');return true;"
+                     onMouseOut="hidePopupMenu(event);return true;"
+                     alt="Kavanagh"/>
+            </a>
+            <div class="giCutoutLabel">
+                <img src="/images/cutouts/100_piece_Classic.png"
+                     alt="100 piece Classic"
+                     title="100 piece Classic" />
+            </div>
+        </div>
+        <div class="giItemInfo">
+            <p class="giTitle">
+                <a href="/Street-View/Kavanagh-jigsaw-puzzle">
+                    Kavanagh                </a>
+            </p>
+            <h4 class="giDescription">
+                            </h4>
+            100 piece Classic            <!--<p class="giInfo">Photo: </p>-->
+                            <p class="giInfo">Photo: José María Pérez Nuñez</p>
+                    </div>
+    </div>
+</div>

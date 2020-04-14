@@ -1,0 +1,31 @@
+
+<div class='block-imageblock-ImageBlock'>
+    <div class="one-image">
+        <h3> Featured Puzzle </h3>
+
+        <div class="giThumbnailContainer">
+            <a href="/Flowers/Wedding-jigsaw-puzzle">
+                <img src="/items/thumbnail/94/06/0000800694.jpg"
+                     width="130" height="98" id="IFid800694" class="ImageFrame_solid"
+                     onMouseOver="showPopupMenu(event,cutoutMenu,null,'100 piece Classic');return true;"
+                     onMouseOut="hidePopupMenu(event);return true;"
+                     alt="Wedding"/>
+            </a>
+            <div class="giCutoutLabel">
+                <img src="/images/cutouts/100_piece_Classic.png"
+                     alt="100 piece Classic"
+                     title="100 piece Classic" />
+            </div>
+        </div>
+        <div class="giItemInfo">
+            <p class="giTitle">
+                <a href="/Flowers/Wedding-jigsaw-puzzle">
+                    Wedding                </a>
+            </p>
+            <h4 class="giDescription">
+                            </h4>
+            100 piece Classic            <!--<p class="giInfo">Photo: </p>-->
+                            <p class="giInfo">Photo: Liz DeCoster</p>
+                    </div>
+    </div>
+</div>

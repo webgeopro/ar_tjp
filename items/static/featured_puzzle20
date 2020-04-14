@@ -1,0 +1,31 @@
+
+<div class='block-imageblock-ImageBlock'>
+    <div class="one-image">
+        <h3> Featured Puzzle </h3>
+
+        <div class="giThumbnailContainer">
+            <a href="/Flowers/Progressive-Party-Floral-Design-jigsaw-puzzle">
+                <img src="/items/thumbnail/40/72/0000007240.jpg"
+                     width="130" height="113" id="IFid7240" class="ImageFrame_solid"
+                     onMouseOver="showPopupMenu(event,cutoutMenu,null,'150 piece Classic');return true;"
+                     onMouseOut="hidePopupMenu(event);return true;"
+                     alt="Progressive Party Floral Design"/>
+            </a>
+            <div class="giCutoutLabel">
+                <img src="/images/cutouts/150_piece_Classic.png"
+                     alt="150 piece Classic"
+                     title="150 piece Classic" />
+            </div>
+        </div>
+        <div class="giItemInfo">
+            <p class="giTitle">
+                <a href="/Flowers/Progressive-Party-Floral-Design-jigsaw-puzzle">
+                    Progressive Party Floral Design                </a>
+            </p>
+            <h4 class="giDescription">
+                            </h4>
+            150 piece Classic            <!--<p class="giInfo">Photo: </p>-->
+                            <p class="giInfo">Photo: JAGwired</p>
+                    </div>
+    </div>
+</div>

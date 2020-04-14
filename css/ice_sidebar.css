@@ -1,0 +1,38 @@
+#gsSidebar {
+  width: 180px;
+  /*overflow: hidden;*/
+  border-right-width: 0px;
+  margin: 0px;
+}
+
+#gallery #gsSidebar ul { font-size: 1em; }
+
+#gsSidebar div ul {   /* no > in IE */
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+#gsSidebar div ul ul { font-size: 1.0em; }
+
+#gsSidebar ul span { color: #999; }
+
+#gsSidebarCol { width: 1%; /* Expand to fit content ("0" bad4 firefox, "1px" bad4 opera) */ }
+
+div#gsSidebar div.block-core-ItemLinks a { display: block; }
+
+div#gsSidebar div.block-core-PeerList a {
+  display: block;
+  padding: 3px;
+}
+
+div#gsSidebar div.block-core-PeerList span {
+  font-weight: bold;
+  display: block;
+  padding: 3px;
+}
+
+div#gsSidebar div.block-core-PeerList span.current { color: #ccc; }
+
+div#gsSidebar div.gbBlock{
+  border-width:0px;
+}

@@ -1,0 +1,80 @@
+div#gsAlbumList{
+    width: 200px;
+}
+
+table.giAlbumList td{
+	padding:3px;
+	vertical-align:middle;
+	text-align:center;
+	/*white-space:nowrap;*/
+}
+table.giAlbumList td img.giAlbumThumbnail{
+	border: 1px solid #858585 !important;
+}
+
+table.giAlbumList td img.giAlbumThumbnail:hover {
+	opacity: 0.8;
+	filter: alpha(opacity=80); /* IE's opacity*/
+}
+table.giAlbumList td .giTitle, table.giAlbumList td .giInfo{
+	text-align:left;
+}
+
+
+#gsNewPuzzles .one-image{
+	clear:both;
+}
+
+#gsNewPuzzles .giThumbnailContainer{
+	float:left;
+	width:150px;
+	margin-bottom:10px;
+}
+
+#gsNewPuzzles .giItemInfo{
+	float:left;
+	width:150px;
+	padding-top:10px;
+	margin-bottom:10px;
+}
+
+#gsPastDays .block-imageblock-ImageBlock { display:inline;  }
+#gsPastDays .one-image { float: left; width:140px; margin-bottom:10px; }
+#gsPastDays .one-image a { display:inline; }
+#gsPastDays .one-image img { display:inline; }
+#gsPastDays div.giCutoutLabel{ left:-7px; top:-13px;}
+
+
+div#gsWelcome{
+	width:400px;
+	padding-top:20px;
+	margin-bottom:20px;
+}
+
+#gsWelcome h1{
+	font-size: 1.5em;
+	font-weight:bold;
+	margin:0.3em;
+}
+
+#gsWelcome p{
+}
+
+
+#gallery h2.giMoreNewPuzzles{
+  clear:both;
+  background: url('/images/more_new_puzzles.png') no-repeat;
+  background-position: top 3px;
+  padding: 9px 20px 15px 20px;
+  display:block;
+  width: 105px;
+  height: 60px;
+  vertical-align:middle;
+  text-align:center;
+}
+
+#gallery h2.giMoreNewPuzzles, #gallery h2.giMoreNewPuzzles a{
+  font-size:13px;
+  font-weight:bold;
+  line-height:11px;
+}

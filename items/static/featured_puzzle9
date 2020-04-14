@@ -1,0 +1,31 @@
+
+<div class='block-imageblock-ImageBlock'>
+    <div class="one-image">
+        <h3> Featured Puzzle </h3>
+
+        <div class="giThumbnailContainer">
+            <a href="/Castles/Sudeley-Castle-Gloucestershire-jigsaw-puzzle">
+                <img src="/items/thumbnail/98/06/0001310698.jpg"
+                     width="130" height="87" id="IFid1310698" class="ImageFrame_solid"
+                     onMouseOver="showPopupMenu(event,cutoutMenu,null,'150 piece Classic');return true;"
+                     onMouseOut="hidePopupMenu(event);return true;"
+                     alt="Sudeley Castle, Gloucestershire"/>
+            </a>
+            <div class="giCutoutLabel">
+                <img src="/images/cutouts/150_piece_Classic.png"
+                     alt="150 piece Classic"
+                     title="150 piece Classic" />
+            </div>
+        </div>
+        <div class="giItemInfo">
+            <p class="giTitle">
+                <a href="/Castles/Sudeley-Castle-Gloucestershire-jigsaw-puzzle">
+                    Sudeley Castle, Gloucestershire                </a>
+            </p>
+            <h4 class="giDescription">
+                            </h4>
+            150 piece Classic            <!--<p class="giInfo">Photo: </p>-->
+                            <p class="giInfo">Photo: Gordon Robertson</p>
+                    </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+<div class='block-imageblock-ImageBlock'>
+            <div class="one-image">
+            <div class="giThumbnailContainer">
+                <a href="Puzzle-of-the-Day/Desertjpg-1-jigsaw-puzzle">
+                    <img src="/items/worked/07/33/0001473307.jpg"
+                         width="400"height="300"                         id="IFid1" class="ImageFrame_solid"
+                         onMouseOver="
+                             showPopupMenu(event,cutoutMenu,null,'100 piece Classic');
+                             showPreviewButton(event,'/items/worked/07/33/0001473307.jpg');return true;"
+                         onMouseOut="hidePopupMenu(event); hidePreviewButton(event); return true;"
+                         alt="Desert.jpg" />
+                </a>
+                <div class="giCutoutLabel">
+                    <img src="/images/cutouts/100_piece_Classic.png"
+                         alt="100 piece Classic"
+                         title="100 piece Classic" />
+                </div>
+            </div>
+            <div class="giItemInfo">
+                    <h4 class="giDescription">
+                                            </h4>
+                <p class="giTitle">Desert.jpg</p>
+                                    <p class="giTitle">
+                        100 piece Classic                    </p>
+                                            </div>
+        </div>
+        </div>

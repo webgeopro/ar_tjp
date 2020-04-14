@@ -1,0 +1,62 @@
+#gallery img.giThumbnail:hover {
+   opacity: 0.8;
+   filter: alpha(opacity=80); /* IE's opacity*/
+}
+
+#gallery img.giThumbnailIce {
+	padding: 6px;
+	-moz-border-radius: 3px;
+}
+
+#gallery img.giThumbnailIce:hover {
+	opacity: 0.8;
+	filter: alpha(opacity=80); /* IE's opacity*/
+}
+
+.gbNavigatorMicroThums {
+  padding: 4px;
+  margin: 4px;
+  border-width: 1px; 
+  border-style: inherit;
+  border-color: inherit;
+  /* IE can't inherit these */
+  border-style: expression(parentElement.currentStyle.borderStyle);
+  border-color: expression(parentElement.currentStyle.borderColor);
+  -moz-border-radius: 3px;
+}
+
+#microThumb img.giThumbnailIce  {
+  margin: 1px;
+  padding: 3px;
+}
+
+#microThumbCurrent img.giThumbnailIce {
+  margin: 1px;
+  padding: 3px;
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* IE's opacity*/
+}
+
+/* -- Gallery floating thumbnails ------------------ */
+
+.gallery-album {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 98%; /* Change to 96% if you want 1 Album per line */
+	margin-left: 20px;
+	display: block;
+	float: left;
+	overflow: hidden;
+}
+
+.gallery-album p {
+	font-size: 1em;
+}
+
+.gallery-thumb {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+	text-align: center;
+}
